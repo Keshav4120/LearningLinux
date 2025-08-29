@@ -1,0 +1,18 @@
+Hey this is the file i am making for connecting Wifi
+
+
+In Arch
+
+
+:== nmcli is the command 
+
+
+1. List available Wi-Fi networks
+   nmcli device wifi list
+
+2. connect to a Wi-Fi networks
+   nmcli device wifi connect "SSID_Name" password "Enter_Your_Password"
+
+3. if your want to forget the old network 
+   nmcli connection delete "SSID_NAME"
+
