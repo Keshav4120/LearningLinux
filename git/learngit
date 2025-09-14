@@ -1,0 +1,37 @@
+TO REVISE GIT
+
+1. to verify our profile in git
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+2. to check our profile
+git config --list
+
+3. to make a repo of .git so that git can analyse what should he post
+git init
+
+4. add file
+git add filename
+    or 
+git add .
+
+5. commit changes(Save you changes with message)
+git commit -m "First Commit"
+
+6. Make a repo on github and add link
+git remote add origin https://github.com/username/repo.git
+
+7. check if your remote is added or not 
+git remote -v
+
+8. make a branch
+git branch -M main
+
+9. push
+git push -u origin main
+
+10. check status
+git status
+
+10. pull (latest changes)
+git pull
